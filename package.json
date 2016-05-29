@@ -7,7 +7,7 @@
     "url": "https://github.com/nak2k/node-redux-shortcuts/issues"
   },
   "dependencies": {
-    "mousetrap": "^1.5.3"
+    "mousetrap": "^1.6.0"
   },
   "devDependencies": {
     "babel-cli": "^6.8.0",
