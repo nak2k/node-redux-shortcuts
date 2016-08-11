@@ -14,8 +14,12 @@ import {
 bindShortcuts(
   [['command+a', 'ctrl+a'], myActionCreator],
   [['command+b', 'ctrl+b'], myActionCreator2],
+
   // Dispatch multiple actions
-  [['command+c', 'ctrl+c'], [myActionCreator, myActionCreator2]]
+  [['command+c', 'ctrl+c'], [myActionCreator, myActionCreator2]],
+
+  // Dispatch and prevent default behavior
+  [['command+s', 'ctrl+s'], myActionCreator, true]
 )(store.dispatch);
 ```
 
