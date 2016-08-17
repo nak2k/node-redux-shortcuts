@@ -1,6 +1,6 @@
 {
   "name": "redux-shortcuts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Keyboard shortcuts in Redux",
   "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
   "bugs": {
@@ -10,8 +10,8 @@
     "mousetrap": "^1.6.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.10.1",
-    "babel-preset-es2015": "^6.9.0"
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2"
   },
   "homepage": "https://github.com/nak2k/node-redux-shortcuts",
   "keywords": [
