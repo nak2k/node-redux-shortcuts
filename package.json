@@ -26,7 +26,7 @@
   },
   "scripts": {
     "build": "babel --presets es2015 -d lib/ src/",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "files": [
     "README.md",
